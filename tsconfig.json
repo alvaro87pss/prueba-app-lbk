@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "preserveConstEnums": true,
+    "pretty": true,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "ES5"
+  },
+  "compileOnSave": true,
+  "buildOnSave": false,
+  "exclude": [
+    "node_modules",
+    "typings"
+  ],
+  "filesGlob": [
+    "**/*.ts"
+  ],
+  "files": [
+    "components/index.ts",
+    "config/config-env/lll.de.env.cfg.ts",
+    "config/config-env/lll.ei.env.cfg.ts",
+    "config/config-env/lll.env.cfg.ts",
+    "config/config-env/lll.pr.env.cfg.ts",
+    "config/config-env/lll.pu.env.cfg.ts",
+    "config/lll.common.cfg.ts",
+    "index.ts",
+    "lll.main.component.ts",
+    "lll.main.config.ts",
+    "lll.main.module.ts",
+    "lll.main.routes.ts",
+    "lll.main.ts",
+    "shared/lll.utilities.service.ts",
+    "test/karma.conf.ts",
+    "test/mocks.ts"
+  ]
+}
